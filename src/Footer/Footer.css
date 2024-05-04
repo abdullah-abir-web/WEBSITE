@@ -37,11 +37,7 @@
   font-size: 20px;
   padding: 22px 50px;
   border-radius: 50px;
-  background: linear-gradient(
-    to right,
-    rgba(68, 0, 255, 0.479),
-    rgba(255, 0, 0, 1)
-  );
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   cursor: pointer;
   transition: 0.3s;
 }

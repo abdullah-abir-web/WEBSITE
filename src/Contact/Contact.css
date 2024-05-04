@@ -24,11 +24,7 @@
   font-size: 50px;
   /* font-size: 80px; */
   font-weight: 700;
-  background: linear-gradient(
-    to right,
-    rgba(68, 0, 255, 0.479),
-    rgba(255, 0, 0, 1)
-  );
+  background: #051937;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -86,11 +82,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(
-    to right,
-    rgba(68, 0, 255, 0.479),
-    rgba(255, 0, 0, 1)
-  );
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
