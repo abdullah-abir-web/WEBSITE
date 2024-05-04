@@ -16,9 +16,10 @@
 
 .nav-connect {
   padding: 20px 20px;
-  background: #051937;
+  background: #a8eb12;
   font-size: 22px;
   cursor: pointer;
+  border-radius: 5px;
 }
 /* .nav-connect:hover {
   transform: scale(1.05);
