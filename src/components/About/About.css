@@ -52,7 +52,7 @@
   width: 50%;
   height: 8px;
   border-radius: 50px;
-  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .aboute-achivements {
   display: flex;
@@ -70,7 +70,7 @@
 .about-achivement h1 {
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  background: #051937;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -39,11 +39,7 @@
   font-size: 30px;
   /* font-size: 38px; */
   font-weight: 800;
-  background: linear-gradient(
-    to right,
-    rgba(68, 0, 255, 0.479),
-    rgba(255, 0, 0, 1)
-  );
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

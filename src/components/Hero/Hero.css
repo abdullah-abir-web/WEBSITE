@@ -16,7 +16,9 @@
   font-weight: 600;
 }
 .hero h1 span {
-  color: #a4161a;
+  background-color: #a8eb12;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero p {
   /* width: 50%; */
@@ -35,18 +37,12 @@
 .hero-connect {
   padding: 20px 20px;
   border-radius: 50px;
-  background: #a4161a;
+  background: #a8eb12;
   cursor: pointer;
 }
-.hero-resume{
-    padding: 20px 20px;
-    border-radius: 50px;
-    border: 2px solid white;
-    cursor: pointer;
-}
-.hero-connect:hover{
-    border: 2px solid #fff;
-}
-.hero-resume:hover{
-    background-color: #a4161a;
+.hero-resume {
+  padding: 20px 20px;
+  border-radius: 50px;
+  border: 2px solid #a8eb12;
+  cursor: pointer;
 }

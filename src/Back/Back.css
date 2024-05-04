@@ -1,0 +1,13 @@
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.top-btn {
+  background-color: springgreen;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 25px;
+  align-items: center;
+}

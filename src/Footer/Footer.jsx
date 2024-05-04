@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src="/public/logo.png" width={60} alt="" />
+          {/* <img src="/public/logo.png" width={60} alt="" /> */}
           <p>
             I am a frontend developer from bd, BD with 2 years of experience.
           </p>
