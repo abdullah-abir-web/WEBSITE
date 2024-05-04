@@ -1,17 +1,38 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import underline from '../../assets/underline.svg'
+import AnchorLink from "react-anchor-link-smooth-scroll";
+// import underline from "../../assets/nav_underline.svg";
 const Navbar = () => {
-  const [menu,setMenu] = useState ("home")
+  // const [menu, setMenu] = useState("home");
   return (
     <div className="navbar">
       <img src="/public/logo.png" width={100} alt="" />
       <ul className="nav-menu">
-        <li><p>Home</p></li>
-        <li><p>About Me</p></li>
-        <li><p>Services</p></li>
-        <li><p>Protfolio</p></li>
-        <li><p>Contact</p></li>
+        <li>
+          <AnchorLink className="anchor-link" href="#home">
+            <p>Home</p>
+          </AnchorLink>
+        </li>
+        <li>
+          <AnchorLink className="anchor-link" offset={50} href="#about">
+            <p>About Me</p>
+          </AnchorLink>
+        </li>
+        <li>
+          <AnchorLink className="anchor-link" offset={50} href="#services">
+            <p>Services</p>
+          </AnchorLink>
+        </li>
+        <li>
+          <AnchorLink className="anchor-link" offset={50} href="#work">
+            <p>Protfolio</p>
+          </AnchorLink>
+        </li>
+        <li>
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            <p>Contact</p>
+          </AnchorLink>
+        </li>
       </ul>
       <div className="nav-connect">Connect With Me</div>
     </div>
