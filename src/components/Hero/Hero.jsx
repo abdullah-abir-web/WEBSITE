@@ -16,9 +16,9 @@ const Hero = () => {
   });
   return (
     <div id="home" className="hero">
-      {/* <img src="/public/hero.png" width={180} alt="" /> */}
+      <img src="/public/hero.png" width={230} height={230} alt="" />
       <h1 ref={gsapRef}>
-        <span ref={gsapRef}>I'm Abir,</span> frontend developer based in BD.
+        <span ref={gsapRef}>I'm Abdullah Abir,</span> frontend developer based in BD.
       </h1>
       <p>I am a frontend developer from bd, BD with 2 years of experience.</p>
       <div className="hero-action">
