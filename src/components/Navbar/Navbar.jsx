@@ -15,12 +15,23 @@ const Navbar = () => {
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";
   };
+
   return (
     <div className="navbar">
-      <img src="/public/logo.png" width={100} alt="" />
-      <img src={menu_open} onClick={openMenu} alt="menu" className="nav-mob-open" />
+      <img src="/public/logo2.png" width={120} alt="" />
+      <img
+        src={menu_open}
+        onClick={openMenu}
+        alt="menu"
+        className="nav-mob-open"
+      />
       <ul ref={menuRef} className="nav-menu">
-        <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          alt=""
+          className="nav-mob-close"
+        />
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p>Home</p>
