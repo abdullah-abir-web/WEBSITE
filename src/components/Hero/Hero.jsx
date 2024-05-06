@@ -3,7 +3,7 @@ import "./Hero.css";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import hero from '../../assets/hero.svg'
+import hero from "../../assets/hero.svg";
 const Hero = () => {
   const gsapRef = useRef();
 
@@ -17,12 +17,11 @@ const Hero = () => {
   });
   return (
     <div id="home" className="hero">
-      <img src={hero} width={300} height={300} alt="" />
+      {/* <img src={hero} width={300} height={300} alt="" /> */}
       <h1 ref={gsapRef}>
-        <span ref={gsapRef}>I'm Abdullah Abir,</span> frontend developer based
-        in BD.
+        <span ref={gsapRef}>I'm Abir,</span> Front-end Developer based in BD.
       </h1>
-      <p>I am a frontend developer from bd, BD with 2 years of experience.</p>
+      <p>I Am a Frontend Developer From BD, BD With 2 Years Of Experience.</p>
       <div className="hero-action">
         <div className="hero-connect">
           {" "}

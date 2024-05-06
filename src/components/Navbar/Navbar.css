@@ -16,18 +16,14 @@
 
 .nav-connect {
   padding: 20px 20px;
-  background: #2596be;
+  background: #25d366;
   font-size: 22px;
-
   cursor: pointer;
   border-radius: 5px;
 }
-/* .nav-connect:hover {
-  transform: scale(1.05);
-} */
 .anchor-link {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 .nav-mob-close {
   display: none;
@@ -55,7 +51,6 @@
     left: 290px;
     width: 30px;
   }
-
   .nav-menu {
     position: fixed;
     flex-direction: column;

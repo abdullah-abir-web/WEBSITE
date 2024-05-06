@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src="/public/hero.png" width={250} height={250} alt="" />
+          {/* <img src="/public/hero.png" width={250} height={250} alt="" /> */}
         </div>
         <div className="about-right">
           <div className="aboute-para">
