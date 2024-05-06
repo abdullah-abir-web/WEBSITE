@@ -12,6 +12,7 @@
 .services-title h1 {
   padding: 0 30px;
   font-size: 80px;
+  color: #25d366;
   font-weight: 600;
 }
 .services-format {
@@ -32,6 +33,7 @@
   margin-bottom: 80px;
 }
 .services-format h3 {
+  color: #fff;
   font-size: 28px;
   font-weight: 600;
 }
@@ -39,12 +41,12 @@
   font-size: 30px;
   /* font-size: 38px; */
   font-weight: 800;
-  background: #a8eb12;
+  background: #25d366;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .services-format p {
-  font-size: #d4d4d4;
+  color: white;
   font-size: 25px;
   line-height: 40px;
   max-width: 400px;

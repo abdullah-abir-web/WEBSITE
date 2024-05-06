@@ -1,5 +1,5 @@
 import "./Back.css";
-import { FaArrowUp } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Back = () => {
   const goToBtn = () => {
@@ -9,7 +9,7 @@ const Back = () => {
   return (
     <div className="back">
       <div className="top-btn" onClick={goToBtn}>
-        <FaArrowUp className="top-btn--icon" />
+        <IoIosArrowUp className="top-btn--icon"/>
       </div>
     </div>
   );

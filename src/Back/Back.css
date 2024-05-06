@@ -2,12 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 .top-btn {
-  background-color: #a8eb12;
-  padding: 15px 20px;
+  background-color: #25d366;
+  padding: 8px 10px;
   border-radius: 50%;
-  font-size: 25px;
+  
   align-items: center;
+}
+.top-btn--icon{
+  color: #111B21;
+  font-size: 30px;
 }
