@@ -19,7 +19,7 @@ const Hero = () => {
     <div id="home" className="hero">
       {/* <img src={hero} width={300} height={300} alt="" /> */}
       <h1 ref={gsapRef}>
-        <span ref={gsapRef}>I'm Abir,</span> Front-end Developer based in BD.
+        <span ref={gsapRef}>I'm Abir,</span> Frontend Developer based in BD.
       </h1>
       <p>I Am a Frontend Developer From BD, BD With 2 Years Of Experience.</p>
       <div className="hero-action">

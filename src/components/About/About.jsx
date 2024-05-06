@@ -16,7 +16,7 @@ const About = () => {
             <p>
               {" "}
               I'm a skilled frontend developer with experience in JavaScript,
-              and expertise in frameworks like React, Node.js, and Three.js.
+              and expertise in frameworks like React,Firebase, and Tailwind.
             </p>
             <p>
               {" "}
@@ -53,12 +53,12 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>90+</h1>
+          <h1>20+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>15+</h1>
+          <h1>0+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
         <hr />
